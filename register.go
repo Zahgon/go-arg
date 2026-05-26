@@ -16,6 +16,4 @@ var registrations []interface{}
 //	func init() {
 //		arg.Register(&args)
 //	}
-func Register(dest any) {
-	registrations = append(registrations, dest)
-}
+func Register(dest any) { _ = "STUB: not implemented"; return }
